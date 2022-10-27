@@ -7,12 +7,12 @@
     "env":{
         "USERNAME":{
             "description": "Add your username",
-            "value": "gzanolli",
+            "value": "predictive",
             "required": true
         },
         "PASSWORD":{
             "description": "Define your password",
-            "value": "P@ssw0rd",
+            "value": "strawBerr1",
             "required": true
         }
     }

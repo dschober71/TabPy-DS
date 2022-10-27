@@ -54,7 +54,7 @@ def setup_package():
         packages=find_packages(exclude=["docs", "misc"]),
         package_data={
             "tabpy": [
-                "3.9",
+                "VERSION",
                 "tabpy_server/state.ini.template",
                 "tabpy_server/static/*",
                 "tabpy_server/common/default.conf",
@@ -90,8 +90,7 @@ def setup_package():
             "tornado",
             "twisted",
             "urllib3",
-            "solaredge",
-            "time",
+            "solaredge"
         ],
         entry_points={
             "console_scripts": [

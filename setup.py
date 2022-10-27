@@ -60,7 +60,7 @@ def setup_package():
                 "tabpy_server/common/default.conf",
             ]
         },
-        python_requires=">=3.7,<3.10",
+        python_requires=">=3.7",
         license="MIT",
         # Note: many of these required packages are included in base python
         # but are listed here because different linux distros use custom

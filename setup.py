@@ -90,6 +90,8 @@ def setup_package():
             "tornado",
             "twisted",
             "urllib3",
+            "solaredge",
+            "time",
         ],
         entry_points={
             "console_scripts": [
